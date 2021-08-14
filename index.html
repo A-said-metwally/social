@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Social Book</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- start nav bar  -->
+        <nav>
+            <div class="nav-left">
+                <p class="logo">Face<span>book</span></p>
+                <ul>
+                    <!-- icons here -->
+                    <li class="icon"><i class="fas fa-envelope"></i></li>
+                    <li class="icon"><i class="fab fa-facebook-messenger"></i></li>
+                    <li class="icon"><i class="fas fa-list"></i></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+
+                <div class="search-box">
+                    <!-- icons here -->
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="search">
+                </div>
+
+                <div class="nav-user-icon online" onclick="settingsMenueToggle()">
+                    <img src="images/user.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="settings-menu">
+
+                <div id="dark-btn" > 
+                    <span></span>
+                </div>
+
+                <div class="user-profile">
+                    <img src="images/portfolio-img5.jpg" alt="">
+                    <div>
+                        <p>Basma Mosaed</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/portfolio-img3.jpg" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to Improve new designe</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <i class="fas fa-list"></i>
+                    <a href=""> Settings & Privacy <i class="fas fa-caret-right right"></i></a>
+                </div>
+                <div class="settings-links">
+                    <i class="fas fa-list"></i>
+                    <a href=""> Settings & Privacy <i class="fas fa-caret-right right"></i></a>
+                </div>
+                <div class="settings-links">
+                    <i class="fas fa-list"></i>
+                    <a href=""> Settings & Privacy <i class="fas fa-caret-right right"></i></a>
+                </div>
+                <div class="settings-links">
+                    <i class="fas fa-list"></i>
+                    <a href=""> Settings & Privacy <i class="fas fa-caret-right right"></i></a>
+                </div>
+
+            </div>
+        </nav>
+
+    <!-- end nav bar -->
+    
+    <!-- start contenet -->
+        <div class="container">
+            <!-- start left side -->
+                <div class="left-sidebar">
+                    <div class="imp-links">
+                        <!-- icons here -->
+                        <a href="#"><i class="fas fa-newspaper"></i> Latest News</a>
+                        <a href="#"><i class="fas fa-user-friends"></i>Friends</a>
+                        <a href="#"><i class="fas fa-users"></i>Groups</a>
+                        <a href="#"><i class="fas fa-cart-plus"></i>Marketplace</a>
+                        <a href="#"><i class="fas fa-tv"></i>Watch</a>
+                        <a href="#">See More</a>
+                    </div> 
+                    <div class="shortcut-links">
+                        <p>Your Shortcuts</p>
+                        <a href="#"><img src="images/portfolio-img7.jpg" alt="">web Developers</a>
+                        <a href="#"><img src="images/portfolio-img8.jpg" alt="">web Design Course</a>
+                        <a href="#"><img src="images/portfolio-img7.jpg" alt="">React Js</a>
+                        <a href="#"><img src="images/portfolio-img8.jpg" alt="">jQuery</a>
+
+                    </div>
+                </div>
+            <!-- end left side -->
+
+            <!-- start main side -->
+            <div class="main-sidebar">
+                <div class="story-gallery">
+                    <div class="story">
+                        <div class="user"><i class="fas fa-plus-circle"></i></div>
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story">
+                        <div><img src="images/portfolio-img4.jpg"></div>
+                        <p>Basma</p>
+                    </div>
+                    <div class="story">
+                        <div><img src="images/portfolio-img3.jpg"></div>
+                        <p>Muhammad</p>
+                    </div>
+                    <div class="story">
+                        <div><img src="images/portfolio-img5.jpg"></div>
+                        <p>Jory</p>
+                    </div>
+                    <div class="story">
+                        <div><img src="images/portfolio-img6.jpg"></div>
+                        <p>Tamim</p>
+                    </div>
+                </div>
+
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/portfolio-img6.jpg" alt="">
+                        <div>
+                            <p>Ahmed Said</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea  rows="3" placeholder="What's on Your Mind .."></textarea>
+
+                        <div class="add-post-links">
+                            <a href="#"><i class="fas fa-video"></i> Live Vedio</a>
+                            <a href="#"><i class="fas fa-camera"></i> Photo/Vedio</a>
+                            <a href="#"><i class="far fa-smile-wink"></i> Feling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/portfolio-img6.jpg" alt="">
+                            <div>
+                                <p>Ahmed Said</p>
+                                <span>June 24 2021 , 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                    <p class='post-text'>Subscribe <span>@ Elmohandes </span>YouTube Channel to Watch more videos on website develpment and ui designs . <a href="#">#elmohandes</a></p>
+                    <img src="images/portfolio-img8.jpg" class='post-img'>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><i class="fas fa-thumbs-up"></i><span>Like</span></div>
+                            <div><i class="fas fa-comment-alt"></i><span>Comment</span></div>
+                            <div><i class="fas fa-share"></i></i><span>122</span></div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/portfolio-img5.jpg" alt="">
+                            <small> <i class="fas fa-caret-down"></i></small>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/portfolio-img5.jpg" alt="">
+                            <div>
+                                <p>Basma Mosaed</p>
+                                <span>June 24 2021 , 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                    <p class='post-text'>Subscribe <span>@ Elmohandes </span>YouTube Channel to Watch more videos on website develpment and ui designs . <a href="#">#elmohandes</a></p>
+                    <img src="images/portfolio-img7.jpg" class='post-img'>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><i class="fas fa-thumbs-up"></i><span>Like</span></div>
+                            <div><i class="fas fa-comment-alt"></i><span>Comment</span></div>
+                            <div><i class="fas fa-share"></i></i><span>122</span></div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/portfolio-img5.jpg" alt="">
+                            <small> <i class="fas fa-caret-down"></i></small>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/portfolio-img1.jpg" alt="">
+                            <div>
+                                <p>Ahmed Said</p>
+                                <span>June 24 2021 , 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                    <p class='post-text'>Subscribe <span>@ Elmohandes </span>YouTube Channel to Watch more videos on website develpment and ui designs . <a href="#">#elmohandes</a></p>
+                    <img src="images/portfolio-img2.jpg" class='post-img'>
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><i class="fas fa-thumbs-up"></i><span>Like</span></div>
+                            <div><i class="fas fa-comment-alt"></i><span>Comment</span></div>
+                            <div><i class="fas fa-share"></i></i><span>122</span></div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/portfolio-img5.jpg" alt="">
+                            <small> <i class="fas fa-caret-down"></i></small>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class='loade-more-btn'>Load More</button>
+            </div>
+            <!-- end main side -->
+
+            <!-- start right side -->
+            <div class="right-sidebar">
+                <div class="sidbar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>18</h3>
+                        <span>March</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p>Wilson Tech Park</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>22</h3>
+                        <span>April</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p>Wilson Tech Park</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                <!-- ********************* -->
+                <div class="sidbar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+                <img src="images/portfolio-img3.jpg" alt="" class="sidebar-ads">
+                <!-- ********************* -->
+                <div class="sidbar-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide Chat</a>
+                </div>
+                <!-- ********************* -->
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/portfolio-img5.jpg" alt="">
+                        <div></div>
+                    </div>
+                    <p>Allison Monia</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/portfolio-img4.jpg" alt="">
+                        <div></div>
+                    </div>
+                    <p>Allison Monia</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/portfolio-img3.jpg" alt="">
+                        <div></div>
+                    </div>
+                    <p>Allison Monia</p>
+                </div>
+
+            </div>
+        <!-- end right side -->
+
+        </div>
+    <!-- end content -->
+
+    <!-- start footer -->
+        <div class="footer">
+            <p>Copyright 2021 - Elmohandes Ahmed Said</p>
+        </div>
+    <!-- end footer -->
+    <script src='script.js'></script>
+</body>
+</html>
